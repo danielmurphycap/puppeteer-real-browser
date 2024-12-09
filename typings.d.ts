@@ -24,6 +24,10 @@ declare module "puppeteer-real-browser" {
 		disableXvfb?: boolean;
 		plugins?: import("puppeteer-extra").PuppeteerExtraPlugin[];
 		ignoreAllFlags?: boolean;
+		skipLaunch?: boolean;
+        pid?: number;
+        port?: number;
+        browserURL?: string;
 	}
 
 	interface ProxyOptions {
