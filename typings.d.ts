@@ -27,7 +27,7 @@ declare module "puppeteer-real-browser" {
 		skipLaunch?: boolean;
         pid?: number;
         port?: number;
-        browserURL?: string;
+        browserWSEndpoint?: string;
 	}
 
 	interface ProxyOptions {
